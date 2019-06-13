@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../cloud-feign/cloud-feign.iml" filepath="$PROJECT_DIR$/../cloud-feign/cloud-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cloud-feign-hystrix/cloud-feign-hystrix.iml" filepath="$PROJECT_DIR$/../cloud-feign-hystrix/cloud-feign-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-parent.iml" filepath="$PROJECT_DIR$/cloud-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cloud-ribbon/cloud-ribbon.iml" filepath="$PROJECT_DIR$/../cloud-ribbon/cloud-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cloud-ribbon-hystrix/cloud-ribbon-hystrix.iml" filepath="$PROJECT_DIR$/../cloud-ribbon-hystrix/cloud-ribbon-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cloud-zuul/cloud-zuul.iml" filepath="$PROJECT_DIR$/../cloud-zuul/cloud-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../consul-consumer/consul-consumer.iml" filepath="$PROJECT_DIR$/../consul-consumer/consul-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../consul-provider/consul-provider.iml" filepath="$PROJECT_DIR$/../consul-provider/consul-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../eureka-client1/eureka-client1.iml" filepath="$PROJECT_DIR$/../eureka-client1/eureka-client1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../eureka-client2/eureka-client2.iml" filepath="$PROJECT_DIR$/../eureka-client2/eureka-client2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/../eureka-server/eureka-server.iml" />
+    </modules>
+  </component>
+</project>

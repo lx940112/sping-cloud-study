@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-feign" />
+        <module name="cloud-feign-hystrix" />
+        <module name="cloud-ribbon" />
+        <module name="cloud-ribbon-hystrix" />
+        <module name="cloud-zuul" />
+        <module name="consul-consumer" />
+        <module name="consul-provider" />
+        <module name="eureka-client1" />
+        <module name="eureka-client2" />
+        <module name="eureka-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-feign" target="1.8" />
+      <module name="cloud-feign-hystrix" target="1.8" />
+      <module name="cloud-parent" target="1.8" />
+      <module name="cloud-ribbon" target="1.8" />
+      <module name="cloud-ribbon-hystrix" target="1.8" />
+      <module name="cloud-zuul" target="1.8" />
+      <module name="consul-consumer" target="1.8" />
+      <module name="consul-provider" target="1.8" />
+      <module name="eureka-client1" target="1.8" />
+      <module name="eureka-client2" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-feign" options="-parameters" />
+      <module name="cloud-feign-hystrix" options="-parameters" />
+      <module name="cloud-parent" options="-parameters" />
+      <module name="cloud-ribbon" options="-parameters" />
+      <module name="cloud-ribbon-hystrix" options="-parameters" />
+      <module name="cloud-zuul" options="-parameters" />
+      <module name="consul-consumer" options="-parameters" />
+      <module name="consul-provider" options="-parameters" />
+      <module name="eureka-client1" options="-parameters" />
+      <module name="eureka-client2" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+    </option>
+  </component>
+</project>
