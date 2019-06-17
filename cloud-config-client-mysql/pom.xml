@@ -9,19 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.lucas</groupId>
-    <artifactId>cloud-parent</artifactId>
+    <artifactId>cloud-config-client-mysql</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <name>cloud-parent</name>
+    <name>cloud-config-client-mysql</name>
     <description>Demo project for Spring Boot</description>
-
-
-    <modules>
-        <module>../cloud-config-client</module>
-        <module>../cloud-config-client-mysql</module>
-        <module>../cloud-config-server</module>
-        <module>../cloud-config-server-mysql</module>
-    </modules>
 
     <properties>
         <java.version>1.8</java.version>
@@ -31,7 +22,11 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
 
         <dependency>
